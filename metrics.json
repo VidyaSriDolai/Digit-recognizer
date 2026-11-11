@@ -1,0 +1,8 @@
+{
+  "test_accuracy": 0.9932000041007996,
+  "test_loss": 0.02294629067182541,
+  "parameters": 225034,
+  "epochs": 8,
+  "train_images": 60000,
+  "test_images": 10000
+}
