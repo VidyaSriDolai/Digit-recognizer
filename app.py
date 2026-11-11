@@ -31,7 +31,7 @@ st.markdown("""
 # ---------- Helpers ----------
 @st.cache_resource
 def load_model():
-return keras.models.load_model("digit_model.h5", compile=False)
+    return keras.models.load_model("digit_model.h5", compile=False)
 
 def load_metrics():
     if os.path.exists("metrics.json"):
